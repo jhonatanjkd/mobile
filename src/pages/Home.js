@@ -2,7 +2,7 @@ import React from 'react'
 import '../components/styles/Home.scss'
 
 import Navbar from '../components/Navbar'
-
+import Slider from '../components/slider'
 class Home extends React.Component{
     render(){
 
@@ -10,17 +10,12 @@ class Home extends React.Component{
             { label : 'Home', link : '#home'}
         ]
            
-        
-
           return (
                 
-                <div className="bg-red-600 home">
-                     <Navbar
-                        links={links}
-                     />
-                        <p className="text-white">home <i className="fas fa-address-book"></i></p>  
-                    
-                       
+                <div className = "home" >
+                    {/*  <Navbar links={links} /> */}
+                    <h1 className="font-semibold text-2xl text-center py-2">Admisión Parque Xcaret</h1>
+                    <Slider/>
                 </div>
           )
             

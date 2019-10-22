@@ -1,3 +1,9 @@
+$colorXcaret: #009335;
+$colorXcaretMedium: #38a169;
+$colorXcaretBold: #24592c;
 .home{
-      padding: 20px;
+      h1{
+            background-color:$colorXcaretMedium;
+            color:white;
+      }
 }
