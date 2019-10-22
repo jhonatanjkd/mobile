@@ -1,0 +1,88 @@
+{
+	"todos":[
+		{
+			"title": "Task 1",
+			"Responsible": "Mark",
+			"description": "Lorem impsium",
+			"priority": "Low"
+		},
+		{
+			"title": "Task 2",
+			"Responsible": "ryan",
+			"description": "Lorem impsium 2",
+			"priority": "Medium"
+		},
+		{
+			"title": "Task 3",
+			"Responsible": "jose",
+			"description": "Lorem impsium 3",
+			"priority": "hight"
+		}
+      ],
+      "carousel":[
+            {
+			"img": "https://via.placeholder.com/492X300",
+			"alt": "imagen1"
+		},
+		{
+			"img": "https://via.placeholder.com/492X300",
+			"alt": "imagen2"
+		},
+		{
+			"img": "https://via.placeholder.com/492X300",
+			"alt": "imagen3"
+		} 
+      ],
+      "tabsFrom":[
+            {
+                  "id": 1,
+			"title": "COMPRA TU ADMISIÓN"
+		
+		},
+		{
+                  "id": 2,
+			"title": "ATRACCIONES"
+			
+		},
+		{
+                  "id": 3,
+			"title": "GASTRONOMÍA"
+			
+		},
+		{
+                  "id": 4,
+			"title": "COMO LLEGAR"
+			
+		}  
+      ],
+      "tabsDetalles":[
+            {
+                  "id": 1,
+			"title": "¿QUÉ ES XCARET",
+                  "detalle": "Xcaret es el oarque en playa del Carmen con más de 50 atracciones naturales y culturales donde te reencuentras con la naturaleza en su maravilloso marco rico en fauna y flora",
+                  "text": "Los visitantes que compraron su admisión a Parque Xcaret tambiém compraron:",
+                  "img": "https://via.placeholder.com/150X180"
+		},
+		{
+                  "id": 2,
+			"title": "¿QUÉ ES XCARET",
+                  "detalle": "Xcaret es el oarque en playa del Carmen con más de 50 atracciones naturales y culturales donde te reencuentras con la naturaleza en su maravilloso marco rico en fauna y flora",
+                  "text": "Los visitantes que compraron su admisión a Parque Xcaret tambiém compraron:",
+                  "img": "https://via.placeholder.com/150X180"
+		},
+		{
+                  "id": 3,
+			"title": "¿QUÉ ES XCARET",
+                  "detalle": "Xcaret es el oarque en playa del Carmen con más de 50 atracciones naturales y culturales donde te reencuentras con la naturaleza en su maravilloso marco rico en fauna y flora",
+                  "text": "Los visitantes que compraron su admisión a Parque Xcaret tambiém compraron:",
+                  "img": "https://via.placeholder.com/150X180"
+		},
+		{
+                  "id": 4,
+			"title": "¿QUÉ ES XCARET",
+                  "detalle": "Xcaret es el oarque en playa del Carmen con más de 50 atracciones naturales y culturales donde te reencuentras con la naturaleza en su maravilloso marco rico en fauna y flora",
+                  "text": "Los visitantes que compraron su admisión a Parque Xcaret tambiém compraron:",
+                  "img": "https://via.placeholder.com/150X180"
+		}  
+      ]
+}
