@@ -1,0 +1,61 @@
+$colorXcaret: #009335;
+$colorXcaretMedium: #38a169;
+$colorXcaretBold: #24592c;
+
+.react-tabs {
+    .react-tabs__tab-list {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        .react-tabs__tab {
+            background-color: $colorXcaretMedium;
+            color: white;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24.8%;
+            font-size: 1rem;
+        }
+
+        .react-tabs__tab--selected {
+            background-color: $colorXcaretBold;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            position: relative;
+          
+            &:after {
+                content: "";
+                border-width: 15px 15px 0;
+                border-style: solid;
+                border-color: $colorXcaretBold transparent;
+                position: absolute;
+                top: 100%;
+                left: 45%;
+            }
+
+        }
+    }
+}
+.formularioTab{
+    .DayPickerInput{
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-width: 1px;
+        border-color: #cbd5e0;
+        background-color: #fff;
+        width: 100%; 
+        border-radius: 0.25rem;
+        margin-bottom: 0.5rem;
+        input{
+            width:100%;
+            padding:0px 10px;
+        }
+    }
+    
+}
