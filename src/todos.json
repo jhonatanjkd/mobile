@@ -1,22 +1,74 @@
 {
-	"todos":[
+	"parques":[
 		{
-			"title": "Task 1",
-			"Responsible": "Mark",
-			"description": "Lorem impsium",
-			"priority": "Low"
+			"id": "1",
+			"logo": "https://www.xcaret.com/img/logos/logo_xelha.svg",
+			"link": "https://es.xelha.com/?_ga=2.74513104.351536726.1571858547-790904089.1571079787"
 		},
 		{
-			"title": "Task 2",
-			"Responsible": "ryan",
-			"description": "Lorem impsium 2",
-			"priority": "Medium"
+			"id": "2",
+			"logo": "https://www.xcaret.com/img/logos/logo_xplor.svg",
+			"link": "https://www.xplor.travel/es/"
 		},
 		{
-			"title": "Task 3",
-			"Responsible": "jose",
-			"description": "Lorem impsium 3",
-			"priority": "hight"
+			"id": "3",
+			"logo": "https://www.xcaret.com/img/logos/logo_xplor-fuego.svg",
+			"link": "https://www.xplor.travel/es/entrada-xplor-fuego/"
+		},
+		{
+			"id": "4",
+			"logo": "https://www.xcaret.com/img/logos/logo_xoximilco.svg",
+			"link": "https://www.xoximilco.com/es/"
+		},
+		{
+			"id": "5",
+			"logo": "https://www.xcaret.com/img/logos/logo_xenses.svg",
+			"link": "https://www.parquexenses.com/"
+		},
+		{
+			"id": "6",
+			"logo": "https://www.xcaret.com/img/logos/logo_xenotes.svg",
+			"link": "https://www.xenotes.com/es/"
+		},
+		{
+			"id": "7",
+			"logo": "https://www.xcaret.com/img/logos/xavage-c.png",
+			"link": "https://www.xavage.com/es/"
+		},
+		{
+			"id": "8",
+			"logo": "https://www.xcaret.com/img/logos/logo_experiencias-v.svg",
+			"link": "https://www.xcaretexperiencias.com/"
+		},
+		{
+			"id": "9",
+			"logo": "https://www.xcaret.com/img/logos/hotel-xcaret-b.png",
+			"link": "https://www.hotelxcaret.com/es/"
+		},
+		{
+			"id": "10",
+			"logo": "https://www.xcaret.com/img/logos/logo-xcaret-expedition-w.svg",
+			"link": "https://www.xcaretexpeditions.com/"
+		},
+		{
+			"id": "11",
+			"logo": "https://www.xcaret.com/img/logos/logo-xichen-w.svg",
+			"link": "https://www.xichen.com.mx/es/"
+		},
+		{
+			"id": "12",
+			"logo": "https://www.xcaret.com/img/logos/logo-coba-w.svg",
+			"link": "https://www.cobatour.travel/es/"
+		},
+		{
+			"id": "13",
+			"logo": "https://www.xcaret.com/img/logos/logo-tulum-w.svg",
+			"link": "https://www.tulumtour.travel/es/"
+		},
+		{
+			"id": "14",
+			"logo": "https://www.xcaret.com/img/logos/logo_gpo-xcaret-w.svg",
+			"link": "https://www.grupoexperienciasxcaret.com/"
 		}
       ],
       "carousel":[
@@ -36,22 +88,34 @@
       "tabsFrom":[
             {
                   "id": 1,
-			"title": "COMPRA TU ADMISIÓN"
+			"title": "COMPRA TU ADMISIÓN",
+			"meses": "HASTA 12 MESES SIN  INTERESES",
+			"priceAdulto": "$93.49 USD",
+			"priceNino": "$46.75 USD"
 		
 		},
 		{
                   "id": 2,
-			"title": "ATRACCIONES"
+			"title": "ATRACCIONES",
+			"meses": "HASTA 9 MESES SIN INTERESES",
+			"priceAdulto": "$100.49 USD",
+			"priceNino": "$56.75 USD"
 			
 		},
 		{
                   "id": 3,
-			"title": "GASTRONOMÍA"
+			"title": "GASTRONOMÍA",
+			"meses": "HASTA 6 MESES SIN  INTERESES",
+			"priceAdulto": "$109.49 USD",
+			"priceNino": "$66.75 USD"
 			
 		},
 		{
                   "id": 4,
-			"title": "COMO LLEGAR"
+			"title": "COMO LLEGAR",
+			"meses": "HASTA 3 MESES SIN  INTERESES",
+			"priceAdulto": "$120.49 USD",
+			"priceNino": "$86.75 USD"
 			
 		}  
       ],
@@ -61,28 +125,222 @@
 			"title": "¿QUÉ ES XCARET",
                   "detalle": "Xcaret es el oarque en playa del Carmen con más de 50 atracciones naturales y culturales donde te reencuentras con la naturaleza en su maravilloso marco rico en fauna y flora",
                   "text": "Los visitantes que compraron su admisión a Parque Xcaret tambiém compraron:",
-                  "img": "https://via.placeholder.com/150X180"
+                  "img": "https://via.placeholder.com/320X400"
 		},
 		{
                   "id": 2,
 			"title": "¿QUÉ ES XCARET",
                   "detalle": "Xcaret es el oarque en playa del Carmen con más de 50 atracciones naturales y culturales donde te reencuentras con la naturaleza en su maravilloso marco rico en fauna y flora",
                   "text": "Los visitantes que compraron su admisión a Parque Xcaret tambiém compraron:",
-                  "img": "https://via.placeholder.com/150X180"
+                  "img": "https://via.placeholder.com/320X400"
 		},
 		{
                   "id": 3,
 			"title": "¿QUÉ ES XCARET",
                   "detalle": "Xcaret es el oarque en playa del Carmen con más de 50 atracciones naturales y culturales donde te reencuentras con la naturaleza en su maravilloso marco rico en fauna y flora",
                   "text": "Los visitantes que compraron su admisión a Parque Xcaret tambiém compraron:",
-                  "img": "https://via.placeholder.com/150X180"
+                  "img": "https://via.placeholder.com/320X400"
 		},
 		{
                   "id": 4,
 			"title": "¿QUÉ ES XCARET",
                   "detalle": "Xcaret es el oarque en playa del Carmen con más de 50 atracciones naturales y culturales donde te reencuentras con la naturaleza en su maravilloso marco rico en fauna y flora",
                   "text": "Los visitantes que compraron su admisión a Parque Xcaret tambiém compraron:",
-                  "img": "https://via.placeholder.com/150X180"
+                  "img": "https://via.placeholder.com/320X400"
 		}  
+	],
+	"destinos":[
+            {
+                  "id": 1,
+			"nombre": "Cancún",
+			"url": "cancun"
+		},
+		{
+                  "id": 2,
+			"nombre": "Playa del carme",
+			"url": "playa-del-carmen"
+		},
+		{
+                  "id": 3,
+			"nombre": "Tulum",
+			"url": "tulum"
+		},
+		{
+                  "id": 4,
+			"nombre": "Cobá",
+			"url": "coba"
+
+		},
+		{
+                  "id": 5,
+			"nombre": "Quintana Roo",
+			"url": "quintana-roo"
+
+		} ,
+		{
+                  "id": 6,
+			"nombre": "Chichén Itzá",
+			"url": "chichen-itza"
+
+		}  
+	],
+	"sitios":[
+            {
+                  "id": 1,
+			"nombre": "Acerca de Xcaret",
+			"url": "acerca-de-xcaret"
+		},
+		{
+                  "id": 2,
+			"nombre": "Acerca de Xelhá",
+			"url": "acerca-de-xelha"
+		},
+		{
+                  "id": 3,
+			"nombre": "Acerca de Explore",
+			"url": "acerca-de-explore"
+		},
+		{
+                  "id": 4,
+			"nombre": "Acerca de Explore Fuego",
+			"url": "acerca-de-explore-fuego"
+
+		},
+		{
+                  "id": 5,
+			"nombre": "Acerca de Xavage",
+			"url": "acerca-de-xavage"
+
+		} ,
+		{
+                  "id": 6,
+			"nombre": "Acerca de Xochimilco",
+			"url": "acerca-de-xochimilco"
+
+		} ,
+		{
+                  "id": 7,
+			"nombre": "Acerca de Xenses",
+			"url": "acerca-de-xenses"
+
+		}   
+      ],
+	"comprar":[
+            {
+                  "id": 1,
+			"nombre": "Comprar Xcaret",
+			"url": "comprar-xcaret"
+		},
+		{
+                  "id": 2,
+			"nombre": "Comprar Xelhá",
+			"url": "comprar-xelha"
+		},
+		{
+                  "id": 3,
+			"nombre": "Comprar Explore",
+			"url": "comprar-explore"
+		},
+		{
+                  "id": 4,
+			"nombre": "Comprar Explore Fuego",
+			"url": "comprar-explore-fuego"
+
+		},
+		{
+                  "id": 5,
+			"nombre": "Comprar Xavage",
+			"url": "comprar-xavage"
+
+		} ,
+		{
+                  "id": 6,
+			"nombre": "Comprar Xochimilco",
+			"url": "comprar-xochimilco"
+
+		} ,
+		{
+                  "id": 7,
+			"nombre": "Comprar Xenses",
+			"url": "comprar-xenses"
+
+		}   
+	],
+	"sobre":[
+            {
+                  "id": 1,
+			"nombre": "Mapa de Sitio",
+			"url": "mapa-de-sitio"
+		},
+		{
+                  "id": 2,
+			"nombre": "Blog Xcaret",
+			"url": "blog-xcaret"
+		},
+		{
+                  "id": 3,
+			"nombre": "Atracciones en Xcaret",
+			"url": "atracciones-en-scaret"
+		},
+		{
+                  "id": 4,
+			"nombre": "Actividades Opcionales",
+			"url": "actividades-opcionales"
+
+		},
+		{
+                  "id": 5,
+			"nombre": "Promociones",
+			"url": "promociones"
+
+		} ,
+		{
+                  "id": 6,
+			"nombre": "¿Ya nos Visitaste?",
+			"url": "ya-nos-visitaste"
+
+		}  
+      ],
+	"otros":[
+            {
+                  "id": 1,
+			"nombre": "Acerca de grupo Xcaret",
+			"url": "acerca-de-grupo-xcaret"
+		},
+		{
+                  "id": 2,
+			"nombre": "Contáctanos",
+			"url": "contactanos"
+		},
+		{
+                  "id": 3,
+			"nombre": "Afiliados",
+			"url": "afiliados"
+		},
+		{
+                  "id": 4,
+			"nombre": "Agencias Online",
+			"url": "agencias-online"
+
+		},
+		{
+                  "id": 5,
+			"nombre": "Bodas",
+			"url": "bodas"
+
+		} ,
+		{
+                  "id": 6,
+			"nombre": "Grupos",
+			"url": "grupos"
+
+		} ,
+		{
+                  "id": 6,
+			"nombre": "Sala de Prensa",
+			"url": "sala-de-prensa"
+
+		}   
       ]
+	
 }
