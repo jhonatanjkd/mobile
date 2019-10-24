@@ -1,6 +1,5 @@
 import React from 'react'
 import '../components/styles/Home.scss'
-/* import Navbar from '../components/Navbar' */
 import Carousel from '../components/Carousel'
 import TabsInfo from '../components/Tabs'
 import Newsletter from '../components/Newsletter'
@@ -18,14 +17,10 @@ class Home extends React.Component{
             tabsDetalles          
         }
     }
-    render(){
-        let links = [
-            { label : 'Home', link : '#home'}
-        ]           
+    render(){         
         return (                
-                <div className = "home" >
-                    {/*  <Navbar links={links} /> */}
-                    {      <h1 className="font-semibold text-2xl text-center py-2">Admisión Parque Xcaret</h1> }
+                <div className = "home" >                     
+                    <h1 className="font-semibold text-base sm:text-lg md:text-xl text-center py-2">Admisión Parque Xcaret</h1> 
                     <Carousel carousel={carousel}/>
                     <TabsInfo tabs={tabsFrom} tabType="tabformularios"/>
                     <TabsInfo tabs={tabsDetalles} tabType="tabdetalles"/>

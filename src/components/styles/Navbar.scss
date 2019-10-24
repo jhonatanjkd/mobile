@@ -1,4 +1,15 @@
-
+$colorXcaret: #009335;
+$colorXcaretMedium: #38a169;
+$colorXcaretBold: #24592c;
 nav{
-      background: red;
+      border-top: solid 1px white;
+      background-color: $colorXcaret;
+      a{
+            border: 1px solid white;
+            padding: 0.5em 0.6em;         
+            border-radius: 100%;
+            &:hover{
+                  background-color: $colorXcaretBold;
+            }
+      }
 }

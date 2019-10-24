@@ -68,10 +68,10 @@ class Footer extends Component{
                               </div>
                               <img src="https://www.xcaret.com/img/reconocimientos_es.svg" className="w-full mb-4" />
                               <div className="redes flex justify-around mb-4">
-                                    <a className="text-white text-3xl cursor-pointer hover:text-blue-700"><i class="fab fa-facebook-f"></i></a>
-                                    <a className="text-white text-3xl cursor-pointer hover:text-blue-400"><i class="fab fa-twitter"></i></a>
-                                    <a className="text-white text-3xl cursor-pointer hover:text-pink-800"><i class="fab fa-instagram"></i></a>
-                                    <a className="text-white text-3xl cursor-pointer hover:text-red-600"><i class="fab fa-youtube"></i></a>
+                                    <a className="text-white text-3xl cursor-pointer hover:text-blue-700"><i className="fab fa-facebook-f"></i></a>
+                                    <a className="text-white text-3xl cursor-pointer hover:text-blue-400"><i className="fab fa-twitter"></i></a>
+                                    <a className="text-white text-3xl cursor-pointer hover:text-pink-800"><i className="fab fa-instagram"></i></a>
+                                    <a className="text-white text-3xl cursor-pointer hover:text-red-600"><i className="fab fa-youtube"></i></a>
                               </div>
                         </div>
                         <p className="text-white mb-2">Xcaret - México, Chetumal - Puerto Juárez Federal Highway, Km. 282, Rancho Xcaret, Playa del Carmen, Quintana Roo México. CP 77710.</p>

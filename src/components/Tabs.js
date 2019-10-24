@@ -30,8 +30,8 @@ function TabsInfo(props){
                                     <form className="formularioTab bg-gray-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
                                         <h2 className="text-center text-gray-700 text-2xl font-bold mb-8">{x.meses} <i className="fas fa-question-circle"></i></h2>
                                         
-                                        <div className="flex  -mx-3">
-                                          <div className="md:w-1/2 px-3">
+                                        <div className="flex  justify-between">
+                                          <div className="w-1/2 pr-2">
                                                <small className="text-base block text-center text-gray-700">Adultos:</small>
                                                <b className="text-base block text-center font-normal text-gray-700">{x.priceAdulto}</b>
                                                <div className="relative mb-2">
@@ -42,7 +42,7 @@ function TabsInfo(props){
                                                       </select>
                                                </div>
                                          </div>
-                                         <div className="md:w-1/2 px-3">
+                                         <div className="w-1/2 pl-2">
                                                <small className="text-base block text-center text-gray-700">Niños:</small>
                                                <b className="text-base block text-center font-normal text-gray-700">{x.priceNino}</b>
                                                <div className="relative mb-2">
@@ -58,25 +58,25 @@ function TabsInfo(props){
                                          <DayPickerInput onDayChange={day => console.log(day)} /> 
                                          <div className="services">
                                                <div className="itemsServices flex justify-between  mb-2">
-                                                      <div className="text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 px-4 w-5/6 mr-2 cursor-pointer hover:bg-gray-300">Agregar <i className="fas fa-bus"></i> transportación</div>
-                                                      <div className="text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 px-4 w-1/6 cursor-pointer hover:bg-gray-300">info</div>
+                                                      <div className="text-xs sm:text-sm md:text-xl text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 p-2 sm:px-4 w-5/6 mr-2 cursor-pointer hover:bg-gray-300">Agregar <i className="fas fa-bus"></i> transportación</div>
+                                                      <div className="text-xs sm:text-sm md:text-xl text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 p-2 sm:px-4 w-1/6 cursor-pointer hover:bg-gray-300">info</div>
                                                </div>
                                                <div className="itemsServices flex  justify-between  mb-2">
-                                                      <div className="text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 px-4 w-5/6 mr-2 cursor-pointer hover:bg-gray-300">Agregar <i className="fas fa-utensils"></i> alimentos y bebidas</div>
-                                                      <div className="text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 px-4 w-1/6 cursor-pointer hover:bg-gray-300">info</div>
+                                                      <div className="text-xs sm:text-sm md:text-xl text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 p-2 sm:px-4 w-5/6 mr-2 cursor-pointer hover:bg-gray-300">Agregar <i className="fas fa-utensils"></i> alimentos y bebidas</div>
+                                                      <div className="text-xs sm:text-sm md:text-xl text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 p-2 sm:px-4 w-1/6 cursor-pointer hover:bg-gray-300">info</div>
                                                </div>
                                                <div className="itemsServices flex justify-between  mb-2">
-                                                      <div className="text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 px-4 w-5/6 mr-2 cursor-pointer hover:bg-gray-300">Agregar <i className="fas fa-camera"></i>  Fotopass</div>
-                                                      <div className="text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 px-4 w-1/6 cursor-pointer hover:bg-gray-300">info</div>
+                                                      <div className="text-xs sm:text-sm md:text-xl text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 p-2 sm:px-4 w-5/6 mr-2 cursor-pointer hover:bg-gray-300">Agregar <i className="fas fa-camera"></i>  Fotopass</div>
+                                                      <div className="text-xs sm:text-sm md:text-xl text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 p-2 sm:px-4 w-1/6 cursor-pointer hover:bg-gray-300">info</div>
                                                </div>                                                                                                                                                
                                          </div>
                                          <div className="font-bold text-center text-2xl">TOTAL: $93.49 USD</div>
                                          <p className="text-center">*Precios sujestos a cambio sin previo aviso. Aplican restriciones</p>
                                          <div className="botonesComprar flex justify-between mb-2">
-                                                <div className="text-center rounded-full py-2 px-4 bg-red-400 w-2/5 text-white flex items-center justify-center cursor-pointer font-semibold hover:bg-red-500">AGREGAR AL CARRITO</div>
-                                                <div className="text-center rounded-full py-2 px-4 bg-red-600 w-2/5 text-white flex items-center justify-center cursor-pointer font-semibold hover:bg-red-700">PAGAR</div>
+                                                <div className="text-xs sm:text-sm  text-center rounded-full py-2 p-2 sm:px-4 bg-red-400 w-1/2 mr-2 text-white flex items-center justify-center cursor-pointer font-semibold hover:bg-red-500">AGREGAR AL CARRITO</div>
+                                                <div className="text-xs sm:text-sm  text-center rounded-full py-2 p-2 sm:px-4 bg-red-600 w-1/2 ml-2 text-white flex items-center justify-center cursor-pointer font-semibold hover:bg-red-700">PAGAR</div>
                                          </div>
-                                         <div className="text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 px-4  cursor-pointer hover:bg-gray-300">Ver descuentos y beneficios</div>
+                                         <div className="text-center text-gray-700 border-solid border-2 border-gray-700 rounded-full py-2 p-2 sm:px-4  cursor-pointer hover:bg-gray-300">Ver descuentos y beneficios</div>
                                     </form>
                               </div>
                         </TabPanel>

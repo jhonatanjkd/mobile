@@ -59,3 +59,14 @@ $colorXcaretBold: #24592c;
         }
     }
 }
+
+@media (max-width: 480px) {
+    .react-tabs .react-tabs__tab-list .react-tabs__tab{
+        font-size: .75rem;
+    }
+  }
+  @media (max-width: 320px) {
+    .react-tabs .react-tabs__tab-list .react-tabs__tab{
+        font-size: .65rem;
+    }
+  }
