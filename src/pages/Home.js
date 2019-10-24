@@ -31,14 +31,14 @@ class Home extends React.Component{
                     <TabsInfo tabs={tabsDetalles} tabType="tabdetalles"/>
                     <section className="cards px-8 mt-4">
                         <p className="text-center text-xl mb-2">Hasta 12 <b>meses</b> sin intereses</p> 
-                        <div className="flex sm:justify-between   justify-center">
-                            <img src="https://via.placeholder.com/40X32" className="w-1/6 mx-1"/>
-                            <img src="https://via.placeholder.com/40X32" className="w-1/6 mx-1"/>
-                            <img src="https://via.placeholder.com/40X32" className="w-1/6 mx-1"/>
-                            <img src="https://via.placeholder.com/40X32" className="w-1/6 mx-1"/>
-                            <img src="https://via.placeholder.com/40X32" className="w-1/6 mx-1"/>
-                            <img src="https://via.placeholder.com/40X32" className="w-1/6 mx-1"/>
-                            <img src="https://via.placeholder.com/40X32" className="w-1/6 mx-1"/>
+                        <div className="flex sm:justify-between justify-between mt-4 mb-4">
+                            <img src="https://www.xcaret.com/img/bancos/american.png" className=" mx-1"/>
+                            <img src="https://www.xcaret.com/img/bancos/visa.png" className=" mx-1"/>
+                            <img src="https://www.xcaret.com/img/bancos/mastercard.png" className=" mx-1"/>
+                            <img src="https://www.xcaret.com/img/bancos/discover.png" className=" mx-1"/>
+                            <img src="https://www.xcaret.com/img/bancos/diners.png" className=" mx-1"/>
+                            <img src="https://www.xcaret.com/img/bancos/paypal.png" className=" mx-1"/>
+                         
                         </div>
                         <p>Con los principales bancos y tarjetas emitidas en México.</p>
                         <p>*No aplica Paylpal <a href="#" className="font-bold">Más opciones <i className="fas fa-angle-double-right"></i></a></p>                       
