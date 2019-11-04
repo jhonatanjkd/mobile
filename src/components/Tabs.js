@@ -90,8 +90,8 @@ function TabsInfo(props){
                                     <p className="text-gray-700 mb-2 mt-2">{x.detalle}</p>
                                     <b className="text-gray-700 mb-2 block">{x.text}</b>
                                     <div className="imagesDetalles flex justify-between">
-                                          <img src={x.img} className="w-2/5"/>
-                                          <img src={x.img} className="w-2/5"/>
+                                          <img src={x.img} className="w-2/5" alt=""/>
+                                          <img src={x.img} className="w-2/5" alt=""/>
                                     </div>
                               </div>
                         </TabPanel>

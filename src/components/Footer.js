@@ -37,10 +37,10 @@ class Footer extends Component{
                               <b className="text-white mb-3 block">Toll free number within Méxco</b>
                               <div className="flex justify-between mb-3">
                                     <div className="w-1/2 pr-2">
-                                          <a className = "text-white block   text-center item-tel rounded-lg py-3 cursor-pointer"> <span className = "block" > Cancún: </span> 998-883-3143</a>
+                                          <a className = "text-white block   text-center item-tel rounded-lg py-3 cursor-pointer"  href="/#"> <span className = "block" > Cancún: </span> 998-883-3143</a>
                                     </div>
                                      < div className = "w-1/2 pl-2" >
-                                          <a className = "text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"> <span className = "block" > Playa del Carmen: </span> 984-206-0038</a>
+                                          <a className = "text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"  href="/#"> <span className = "block" > Playa del Carmen: </span> 984-206-0038</a>
                                     </div>
                                     
                                     
@@ -48,30 +48,30 @@ class Footer extends Component{
                               <b className="text-white mb-3 block">Toll free number within Méxco</b>
                               <div className="flex justify-between mb-3 flex-wrap">
                                     <div className="w-1/2 pr-2 mb-3">
-                                           <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"><span className="block">USA-CAN:</span> 1-855-326-0682</a>
+                                           <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"  href="/#"><span className="block">USA-CAN:</span> 1-855-326-0682</a>
                                     </div>
                                     <div className="w-1/2 pl-2 mb-3">
-                                          <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"><span className="block">Brazil:</span> 0-800-892-3371</a>
+                                          <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"  href="/#"><span className="block">Brazil:</span> 0-800-892-3371</a>
                                     </div>
                                    <div className="w-1/2 pr-2 mb-3">
-                                          <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"><span className="block">Argentina:</span> 0-800-892-3371</a>
+                                          <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"  href="/#"><span className="block">Argentina:</span> 0-800-892-3371</a>
                                     </div>
                                     <div className="w-1/2 pl-2 mb-3">
-                                          <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"><span className="block">Colombia:</span> 01-800-952-0705</a>
+                                          <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"  href="/#"><span className="block">Colombia:</span> 01-800-952-0705</a>
                                     </div>
                                     <div className="w-1/2 pr-2 mb-3">
-                                          <a className="text-white block   text-center item-tel rounded-lg py-3 cursor-pointer"><span className="block">Spain:</span> 900-965-224</a>
+                                          <a className="text-white block   text-center item-tel rounded-lg py-3 cursor-pointer"  href="/#"><span className="block">Spain:</span> 900-965-224</a>
                                     </div>
                                     <div className="w-1/2 pl-2 mb-3">
-                                          <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"><span className="block">Chile:</span> 0-800-835-016</a>                      
+                                          <a className="text-white block  text-center item-tel rounded-lg py-3 cursor-pointer"  href="/#"><span className="block">Chile:</span> 0-800-835-016</a>                      
                                     </div>     
                               </div>
-                              <img src="https://www.xcaret.com/img/reconocimientos_es.svg" className="w-full mb-4" />
+                              <img src="https://www.xcaret.com/img/reconocimientos_es.svg" className="w-full mb-4" alt=""/>
                               <div className="redes flex justify-around mb-4">
-                                    <a className="text-white text-3xl cursor-pointer hover:text-blue-700"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="text-white text-3xl cursor-pointer hover:text-blue-400"><i className="fab fa-twitter"></i></a>
-                                    <a className="text-white text-3xl cursor-pointer hover:text-pink-800"><i className="fab fa-instagram"></i></a>
-                                    <a className="text-white text-3xl cursor-pointer hover:text-red-600"><i className="fab fa-youtube"></i></a>
+                                    <a className="text-white text-3xl cursor-pointer hover:text-blue-700"  href="/#"><i className="fab fa-facebook-f"></i></a>
+                                    <a className="text-white text-3xl cursor-pointer hover:text-blue-400"  href="/#"><i className="fab fa-twitter"></i></a>
+                                    <a className="text-white text-3xl cursor-pointer hover:text-pink-800"  href="/#"><i className="fab fa-instagram"></i></a>
+                                    <a className="text-white text-3xl cursor-pointer hover:text-red-600"  href="/#"><i className="fab fa-youtube"></i></a>
                               </div>
                         </div>
                         <p className="text-white mb-2">Xcaret - México, Chetumal - Puerto Juárez Federal Highway, Km. 282, Rancho Xcaret, Playa del Carmen, Quintana Roo México. CP 77710.</p>

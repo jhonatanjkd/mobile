@@ -9,7 +9,7 @@ console.log(props)
 
   const list = listados.map((lista) => 
        <li  key={lista.id} className="">
-             <a href={lista.url} target="_blank" className="block text-white p-1 hover:underline">
+             <a href={lista.url} target="#" className="block text-white p-1 hover:underline">
                  {lista.nombre}
              </a>            
       </li>

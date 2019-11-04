@@ -8,8 +8,8 @@ console.log(props)
 
   const listLogos = logos.map((logos) => 
        <div  key={logos.id} className="item-logos sm:w-1/4 w-1/3 p-3">
-             <a href={logos.link} target="_blank">
-                  <img src={logos.logo}  className=""/>
+             <a href={logos.link} target="#">
+                  <img src={logos.logo} alt=""/>
              </a>            
       </div>
    
